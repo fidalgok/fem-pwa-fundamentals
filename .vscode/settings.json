@@ -14,5 +14,18 @@
      { "icon": "license", "extensions": ["license-exercises"], "filename": true, "format": "svg" },
      { "icon": "bat", "extensions": ["run"], "filename": true, "format": "svg" },
      { "icon": "bat", "extensions": ["rest"], "format": "svg" }
-  ]
+  ],
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "Fira Mono for Powerline, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "files.trimTrailingWhitespace": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "vscode_custom_css.imports": [
+    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
+  ],
 }
