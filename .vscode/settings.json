@@ -8,15 +8,21 @@
     "**/bower_components": true
   },
   "vsicons.associations.folders": [
-     { "icon": "binary", "extensions": ["db"], "format": "svg" }
+    { "icon": "binary", "extensions": ["db"], "format": "svg" }
   ],
   "vsicons.associations.files": [
-     { "icon": "license", "extensions": ["license-exercises"], "filename": true, "format": "svg" },
-     { "icon": "bat", "extensions": ["run"], "filename": true, "format": "svg" },
-     { "icon": "bat", "extensions": ["rest"], "format": "svg" }
+    {
+      "icon": "license",
+      "extensions": ["license-exercises"],
+      "filename": true,
+      "format": "svg"
+    },
+    { "icon": "bat", "extensions": ["run"], "filename": true, "format": "svg" },
+    { "icon": "bat", "extensions": ["rest"], "format": "svg" }
   ],
   "workbench.colorTheme": "Cobalt2",
-  "editor.fontFamily": "Fira Mono for Powerline, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily":
+    "Fira Mono for Powerline, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
@@ -28,4 +34,8 @@
   "vscode_custom_css.imports": [
     "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
   ],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5"
 }
