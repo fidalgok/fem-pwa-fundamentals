@@ -9,6 +9,7 @@ function formatPrice(rawPrice) {
   return `$${rawPrice.toFixed(2)}`;
 }
 
+
 const GroceryItem = ({ item, cartStore }) => {
   let itemUrl = `${API_ENDPOINT}${item.imageUrl.substring(1)}`;
   let price = formatPrice(item.price);
