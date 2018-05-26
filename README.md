@@ -1,7 +1,7 @@
 <p align='center'>
   <a href="https://mike.works" target='_blank'>
     <img height=40 src='https://assets.mike.works/img/login_logo-33a9e523d451fb0d902f73d5452d4a0b.png' />
-  </a> 
+  </a>
 </p>
 <p align='center'>
   <a href="https://mike.works/course/progressive-web-fundamentals-0d74af5" target='_blank'>
@@ -30,7 +30,7 @@ This is the example project used for the <a title="Mike Works, Inc." href="https
 # Course outline and slides
  * [View course outline here](https://mike.works/course/progressive-web-fundamentals-0d74af5)
  * [View slides here](https://docs.mike.works/pwa-fundamentals)
- 
+
 # About This Workshop
 
 Progressive Web Apps become superheroes when they can, while still providing a great baseline experience on less modern browsers.  They're reliable, fast, engaging, and although they can do many of the things users expect from native apps, they don't take up a lot of space, or require a long install process.
@@ -45,14 +45,14 @@ First, we’ll add any mobile-specific metadata to the app, and look at how we c
 
 Next, we'll add a service worker, and apply a few caching strategies to ultimately allow our app to work offline! Additionally, we'll take advantage of IndexedDb, so that new data created on a mobile device can be stored as a structured record, available both in our application and service worker scopes.
 
-Then, we'll make use of Web Push and Notifications to engage our users  bring them back into the app, and explore encryption and signing techniques that ensure our web clients only get messages that originate from our servers. 
+Then, we'll make use of Web Push and Notifications to engage our users  bring them back into the app, and explore encryption and signing techniques that ensure our web clients only get messages that originate from our servers.
 
 Finally, we’ll use Background Sync to further reduce our app’s dependency on a network connection, enabling it to be a free-standing piece of software that synchronizes with the rest of the world when possible.
 
 
 ### By coding along in this workshop, you will…
 * Learn how to audit a web application for “Progressive Web Fitness" with Lighthouse, and to measure important performance metrics like "time to first load" and "time to interactive"
-* Take a "classic" client-side-rendered single-page app, and make it work offline, without changing a single line of the app's code. 
+* Take a "classic" client-side-rendered single-page app, and make it work offline, without changing a single line of the app's code.
 * Get hands-on experience with IndexedDb, a worker-friendly nosql database that's built in to most browsers.
 * Build an example of the App-Shell architecture, where large portions of the UI load almost instantly
 * Learn what you can do to keep your JavaScript code fast, by taking a look at some aspects of JavaScript engines, and taking advantage of some tools to keep us on the speedy path.
@@ -144,7 +144,7 @@ This is a free-standing client/server Progressive Web App system, including
  │  │
  │  ├─ routes/         🔝 Top-level React components, each corresponding to a "page" in our app
  │  ├─ sass/           💅 Global Sass stylesheets
- │  ├─ app.jsx         🎁 React "App" component  
+ │  ├─ app.jsx         🎁 React "App" component
  │  ├─ index.js        🎬 Web client entry point
  │  └─ index.ejs       📄 Template for web client index.html
  │
@@ -218,18 +218,18 @@ Here are some guidelines for things that are **OK** and **NOT OK**, based on our
 understanding of how these licenses work:
 
 ### OK
-* Using everything in this project other than the exercises (or accompanying tests) 
+* Using everything in this project other than the exercises (or accompanying tests)
 to build a project used for your own free or commercial training material
-* Copying code from build scripts, configuration files, tests and development 
+* Copying code from build scripts, configuration files, tests and development
 harnesses that are not part of the exercises specifically, for your own projects
 * As an owner of an individual license, using code from tests, exercises, or
 exercise solutions for your own non-training-related project.
 
 ### NOT OK (without express written consent)
-* Using this project, or any subset of 
+* Using this project, or any subset of
 exercises contained within this project to run your own workshops
 * Writing a book that uses the code for these exercises
-* Recording a screencast that contains one or more of this project's exercises 
+* Recording a screencast that contains one or more of this project's exercises
 
 
 # Copyright
@@ -237,4 +237,8 @@ exercises contained within this project to run your own workshops
 &copy; 2017 [Mike Works, Inc.](https://mike.works) and [Steve Kinney](http://www.stevekinney.net), All Rights Reserved
 
 ###### This material may not be used for workshops, training, or any other form of instructing or teaching developers, without express written consent
+
+## Improvements
+- adding qr worker improved gzipped js by 13 kb from 88 to 75kb
+-
 
